@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "$debug_data_324",
+      "name": "$debug_data",
+      "enabled": false,
+      "config": {},
+      "x": 1135.8889856638928,
+      "y": 455.98080322082876,
+      "width": 446,
+      "height": 405
+    },
+    {
+      "id": "$debug_data_325",
+      "name": "$debug_data",
+      "enabled": false,
+      "config": {},
+      "x": 1143.2696580880067,
+      "y": 972.3071336817089,
+      "width": 446,
+      "height": 405
+    },
+    {
+      "id": "$string_input_326",
+      "name": "$string_input",
+      "enabled": false,
+      "config": {
+        "string": "AI/test.md"
+      },
+      "x": 224.32490403425948,
+      "y": 448.4047556240785,
+      "width": 506,
+      "height": 187
+    },
+    {
+      "id": "$string_input_327",
+      "name": "$string_input",
+      "enabled": false,
+      "config": {
+        "string": "AI"
+      },
+      "x": 228.63465362479712,
+      "y": 989.8525508886727,
+      "width": 506,
+      "height": 187
+    },
+    {
+      "id": "$string_input_328",
+      "name": "$string_input",
+      "enabled": false,
+      "config": {
+        "string": "/"
+      },
+      "x": 234.95014406721077,
+      "y": 1263.2829835090458,
+      "width": 506,
+      "height": 187
+    },
+    {
+      "id": "$object_input_329",
+      "name": "$object_input",
+      "enabled": false,
+      "config": {
+        "object": {
+          "content": "test",
+          "path": "AI/test.md"
+        }
+      },
+      "x": 395.09271982453333,
+      "y": 1565.67301004658,
+      "width": 344,
+      "height": 267
+    },
+    {
+      "id": "mnemnk-obsidian-get-note_330",
+      "name": "mnemnk-obsidian-get-note",
+      "enabled": false,
+      "config": {},
+      "x": 861.3914716648146,
+      "y": 460.40246025361074
+    },
+    {
+      "id": "mnemnk-obsidian-list-notes_331",
+      "name": "mnemnk-obsidian-list-notes",
+      "enabled": false,
+      "config": {},
+      "x": 867.1451847049681,
+      "y": 990.0282944763495
+    },
+    {
+      "id": "mnemnk-obsidian-append-note_332",
+      "name": "mnemnk-obsidian-append-note",
+      "enabled": false,
+      "config": {},
+      "x": 872.681419311227,
+      "y": 1574.9728307175478
+    },
+    {
+      "id": "mnemnk-obsidian-create-note_333",
+      "name": "mnemnk-obsidian-create-note",
+      "enabled": false,
+      "config": {},
+      "x": 842.852816649705,
+      "y": 2.5707966607211254
+    },
+    {
+      "id": "$object_input_334",
+      "name": "$object_input",
+      "enabled": false,
+      "config": {
+        "object": {
+          "content": "test",
+          "path": "AI/test.md"
+        }
+      },
+      "x": 376.0224645229165,
+      "y": -9.929595385728302,
+      "width": 344,
+      "height": 267
+    },
+    {
+      "id": "$debug_data_335",
+      "name": "$debug_data",
+      "enabled": false,
+      "config": {},
+      "x": 1144.937970743973,
+      "y": 1567.3615888740012,
+      "width": 446,
+      "height": 405
+    },
+    {
+      "id": "$debug_data_336",
+      "name": "$debug_data",
+      "enabled": false,
+      "config": {},
+      "x": 1139.9168907720823,
+      "y": -7.583414168895359,
+      "width": 446,
+      "height": 405
+    },
+    {
+      "id": "mnemnk-obsidian-delete-note_466",
+      "name": "mnemnk-obsidian-delete-note",
+      "enabled": false,
+      "config": {},
+      "x": 884.0039373543847,
+      "y": 2091.4925894818703
+    },
+    {
+      "id": "$string_input_467",
+      "name": "$string_input",
+      "enabled": false,
+      "config": {
+        "string": "AI/test.md"
+      },
+      "x": 273.7688407480762,
+      "y": 2076.162224176748,
+      "width": 506,
+      "height": 187
+    },
+    {
+      "id": "$debug_data_468",
+      "name": "$debug_data",
+      "enabled": false,
+      "config": {},
+      "x": 1164.054890734618,
+      "y": 2076.767445810502,
+      "width": 446,
+      "height": 405
+    }
+  ],
+  "edges": [
+    {
+      "id": "xy-edge__$string_input_326string__mnemnk-obsidian-get-note_330path",
+      "source": "$string_input_326",
+      "source_handle": "string",
+      "target": "mnemnk-obsidian-get-note_330",
+      "target_handle": "path"
+    },
+    {
+      "id": "xy-edge__mnemnk-obsidian-get-note_330note__$debug_data_324*",
+      "source": "mnemnk-obsidian-get-note_330",
+      "source_handle": "note",
+      "target": "$debug_data_324",
+      "target_handle": "*"
+    },
+    {
+      "id": "xy-edge__$string_input_327string__mnemnk-obsidian-list-notes_331path",
+      "source": "$string_input_327",
+      "source_handle": "string",
+      "target": "mnemnk-obsidian-list-notes_331",
+      "target_handle": "path"
+    },
+    {
+      "id": "xy-edge__mnemnk-obsidian-list-notes_331notes__$debug_data_325*",
+      "source": "mnemnk-obsidian-list-notes_331",
+      "source_handle": "notes",
+      "target": "$debug_data_325",
+      "target_handle": "*"
+    },
+    {
+      "id": "xy-edge__$string_input_328string__mnemnk-obsidian-list-notes_331path",
+      "source": "$string_input_328",
+      "source_handle": "string",
+      "target": "mnemnk-obsidian-list-notes_331",
+      "target_handle": "path"
+    },
+    {
+      "id": "xy-edge__$object_input_329object__mnemnk-obsidian-append-note_332data",
+      "source": "$object_input_329",
+      "source_handle": "object",
+      "target": "mnemnk-obsidian-append-note_332",
+      "target_handle": "data"
+    },
+    {
+      "id": "xy-edge__mnemnk-obsidian-append-note_332data__$debug_data_335*",
+      "source": "mnemnk-obsidian-append-note_332",
+      "source_handle": "data",
+      "target": "$debug_data_335",
+      "target_handle": "*"
+    },
+    {
+      "id": "xy-edge__$object_input_334object__mnemnk-obsidian-create-note_333data",
+      "source": "$object_input_334",
+      "source_handle": "object",
+      "target": "mnemnk-obsidian-create-note_333",
+      "target_handle": "data"
+    },
+    {
+      "id": "xy-edge__mnemnk-obsidian-create-note_333data__$debug_data_336*",
+      "source": "mnemnk-obsidian-create-note_333",
+      "source_handle": "data",
+      "target": "$debug_data_336",
+      "target_handle": "*"
+    },
+    {
+      "id": "xy-edge__$string_input_467string-mnemnk-obsidian-delete-note_466path",
+      "source": "$string_input_467",
+      "source_handle": "string",
+      "target": "mnemnk-obsidian-delete-note_466",
+      "target_handle": "path"
+    },
+    {
+      "id": "xy-edge__mnemnk-obsidian-delete-note_466data-$debug_data_468*",
+      "source": "mnemnk-obsidian-delete-note_466",
+      "source_handle": "data",
+      "target": "$debug_data_468",
+      "target_handle": "*"
+    }
+  ],
+  "name": "Obsidian",
+  "viewport": {
+    "x": 931.1976664476621,
+    "y": 145.26532889878808,
+    "zoom": 0.3298769776932245
+  }
+}
