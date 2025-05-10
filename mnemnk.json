@@ -24,6 +24,17 @@
     },
     {
       "kind": "Command",
+      "name": "mnemnk-obsidian-delete-note",
+      "title": "Delete Note",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-delete-note"
+      },
+      "inputs": ["path"],
+      "outputs": ["data"]
+    },
+    {
+      "kind": "Command",
       "name": "mnemnk-obsidian-get-note",
       "title": "Get Note",
       "category": "Apps/Obsidian",

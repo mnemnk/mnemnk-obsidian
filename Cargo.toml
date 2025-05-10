@@ -16,6 +16,10 @@ name = "mnemnk-obsidian-create-note"
 path = "src/create_note/main.rs"
 
 [[bin]]
+name = "mnemnk-obsidian-delete-note"
+path = "src/delete_note/main.rs"
+
+[[bin]]
 name = "mnemnk-obsidian-get-note"
 path = "src/get_note/main.rs"
 
