@@ -1,0 +1,71 @@
+{
+  "agents": [
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-append-note",
+      "title": "Append Note",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-append-note"
+      },
+      "inputs": ["data"],
+      "outputs": ["data"]
+    },
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-create-note",
+      "title": "Create Note",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-create-note"
+      },
+      "inputs": ["data"],
+      "outputs": ["data"]
+    },
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-get-note",
+      "title": "Get Note",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-get-note"
+      },
+      "inputs": ["path"],
+      "outputs": ["note"]
+    },
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-list-notes",
+      "title": "List Notes",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-list-notes"
+      },
+      "inputs": ["path"],
+      "outputs": ["notes"]
+    },
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-get-vault",
+      "title": "Get Vault",
+      "description": "Get data from Obsidian",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-get-vault"
+      },
+      "inputs": ["path"],
+      "outputs": ["data"]
+    },
+    {
+      "kind": "Command",
+      "name": "mnemnk-obsidian-post-vault",
+      "title": "Post Vault",
+      "description": "Post data to Obsidian",
+      "category": "Apps/Obsidian",
+      "command": {
+        "cmd": "./target/release/mnemnk-obsidian-post-vault"
+      },
+      "inputs": ["data"]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+[package]
+name = "mnemnk-obsidian"
+version = "0.1.0"
+description = "Mnemnk agents for integration with Obsidian via the Local REST API"
+edition = "2024"
+authors = ["Akira Ishino <akira@lumilab.jp>"]
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/stn/mnemnk-obsidian"
+
+[[bin]]
+name = "mnemnk-obsidian-append-note"
+path = "src/append_note/main.rs"
+
+[[bin]]
+name = "mnemnk-obsidian-create-note"
+path = "src/create_note/main.rs"
+
+[[bin]]
+name = "mnemnk-obsidian-get-note"
+path = "src/get_note/main.rs"
+
+[[bin]]
+name = "mnemnk-obsidian-list-notes"
+path = "src/list_notes/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+dotenv = "0.15.0"
+env_logger = "0.11"
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+urlencoding = "2.1"
