@@ -193,7 +193,7 @@ async fn main() -> Result<()> {
     let args = Args::parse();
     let config = args.config.as_deref().unwrap_or("").into();
 
-    let mut agent: ObsidianGetNoteAgent = ObsidianGetNoteAgent::new(config).await?;
+    let mut agent = ObsidianGetNoteAgent::new(config).await?;
     agent.run().await?;
 
     Ok(())
