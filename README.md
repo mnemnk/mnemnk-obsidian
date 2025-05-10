@@ -17,7 +17,7 @@
 - [Mnemnk App](https://github.com/mnemnk/mnemnk-app)
 - [Rust](https://www.rust-lang.org/)
 - [Obsidian](https://obsidian.md/)
-- [Local REST API](obsidian://show-plugin?id=obsidian-local-rest-api)
+- [Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)
 
 ### Installation
 
